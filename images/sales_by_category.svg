@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="460" viewBox="0 0 1000 460">
+<rect width="1000" height="460" fill="#FFFFFF"/>
+<text x="55.0" y="42.0" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#16324F" text-anchor="start">Sales by product category</text>
+<text x="55.0" y="68.0" font-family="Arial, sans-serif" font-size="14" font-weight="400" fill="#60758A" text-anchor="start">Share of total valid sales</text>
+<text x="162.0" y="134.0" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#16324F" text-anchor="end">Bikes</text>
+<rect x="180" y="110" width="680" height="32" rx="4" fill="#E8EEF5"/>
+<rect x="180" y="110" width="680.0" height="32" rx="4" fill="#2F80ED"/>
+<text x="872.0" y="133.0" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#16324F" text-anchor="start">95.3%</text>
+<text x="180.0" y="165.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#60758A" text-anchor="start">21.20M</text>
+<text x="162.0" y="216.0" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#16324F" text-anchor="end">Accessories</text>
+<rect x="180" y="192" width="680" height="32" rx="4" fill="#E8EEF5"/>
+<rect x="180" y="192" width="22.5" height="32" rx="4" fill="#2F80ED"/>
+<text x="214.5" y="215.0" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#16324F" text-anchor="start">3.2%</text>
+<text x="180.0" y="247.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#60758A" text-anchor="start">0.70M</text>
+<text x="162.0" y="298.0" font-family="Arial, sans-serif" font-size="15" font-weight="600" fill="#16324F" text-anchor="end">Clothing</text>
+<rect x="180" y="274" width="680" height="32" rx="4" fill="#E8EEF5"/>
+<rect x="180" y="274" width="10.9" height="32" rx="4" fill="#2F80ED"/>
+<text x="202.9" y="297.0" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#16324F" text-anchor="start">1.5%</text>
+<text x="180.0" y="329.0" font-family="Arial, sans-serif" font-size="12" font-weight="400" fill="#60758A" text-anchor="start">0.34M</text>
+</svg>

@@ -1,0 +1,3 @@
+﻿issue_type,source_file,source_row,field,value,action
+invalid_order_date_key,internet_sales.csv,512,OrderDateKey,20190229,excluded_from_fact_table
+invalid_order_date_key,internet_sales.csv,513,OrderDateKey,20190229,excluded_from_fact_table

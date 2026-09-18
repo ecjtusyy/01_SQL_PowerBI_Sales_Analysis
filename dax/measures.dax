@@ -1,0 +1,46 @@
+// Create a dedicated empty table named Measures, then add these measures.
+
+Total Sales =
+SUM ( Fact_Internet_Sales[sales_amount] )
+
+Budget Amount =
+SUM ( Fact_Budget[budget_amount] )
+
+Budget Variance =
+[Total Sales] - [Budget Amount]
+
+Budget Variance % =
+DIVIDE ( [Budget Variance], [Budget Amount] )
+
+Budget Attainment % =
+DIVIDE ( [Total Sales], [Budget Amount] )
+
+Order Count =
+DISTINCTCOUNT ( Fact_Internet_Sales[sales_order_number] )
+
+Customer Count =
+DISTINCTCOUNT ( Fact_Internet_Sales[customer_key] )
+
+Average Order Value =
+DIVIDE ( [Total Sales], [Order Count] )
+
+Sales LY =
+CALCULATE (
+    [Total Sales],
+    SAMEPERIODLASTYEAR ( Dim_Calendar[calendar_date] )
+)
+
+YoY Sales Change =
+[Total Sales] - [Sales LY]
+
+YoY Sales Growth % =
+DIVIDE ( [YoY Sales Change], [Sales LY] )
+
+Sales YTD =
+TOTALYTD ( [Total Sales], Dim_Calendar[calendar_date] )
+
+Product Category Sales Share % =
+DIVIDE (
+    [Total Sales],
+    CALCULATE ( [Total Sales], ALL ( Dim_Products ) )
+)

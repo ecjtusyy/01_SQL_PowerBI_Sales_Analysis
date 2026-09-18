@@ -1,0 +1,43 @@
+{
+  "sales_coverage": {
+    "first_date": "2019-01-01",
+    "last_date": "2021-01-28",
+    "valid_rows": 58166,
+    "orders": 25427,
+    "customers": 18222
+  },
+  "total_sales": 22236875.85,
+  "sales_by_year": {
+    "2019": 5839630.79,
+    "2020": 16351550.34,
+    "2021": 45694.72
+  },
+  "budget_2020": {
+    "sales": 16351550.34,
+    "budget": 15300000.0,
+    "variance": 1051550.34,
+    "attainment": 1.068729,
+    "months_at_or_above_budget": 8
+  },
+  "top_category": {
+    "name": "Bikes",
+    "sales": 21196343.28,
+    "share": 0.953207
+  },
+  "top_product": {
+    "name": "Mountain-200 Black, 46",
+    "sales": 1371420.45
+  },
+  "relationship_checks": {
+    "unmatched_product_rows": 0,
+    "unmatched_customer_rows": 0
+  },
+  "scope_note": "Budget continues through 2021-06 while sales end on 2021-01-28. Budget performance conclusions use the complete 2020 calendar year.",
+  "data_quality": {
+    "excluded_rows": 2,
+    "issue_types": {
+      "invalid_order_date_key": 2
+    },
+    "customers_source_encoding": "cp1252"
+  }
+}
